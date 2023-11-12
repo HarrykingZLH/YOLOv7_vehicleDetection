@@ -1,0 +1,30 @@
+
+Opython:S1066"/Merge this if statement with the enclosing one.(็8มีþÜฎ1
+Tpython:S1066’"/Merge this if statement with the enclosing one.(Þ๎—๚ÿÿÿÿ8มีþÜฎ1
+Tpython:S1066—"/Merge this if statement with the enclosing one.(๏ญผüÿÿÿÿ8ยีþÜฎ1
+Tpython:S1066"/Merge this if statement with the enclosing one.(๐ง๙”๙ÿÿÿÿ8ยีþÜฎ1
+Opython:S1066 "/Merge this if statement with the enclosing one.(ษ๘ษ8ยีþÜฎ1
+Opython:S1066ฅ"/Merge this if statement with the enclosing one.(ใ๚•ๅ8ยีþÜฎ1
+tpython:S116T"VRename this field "is_changeLight" to match the regular expression ^[_a-z][_a-z0-9]*$.(“๎อ8ยีþÜฎ1
+qpython:S116S"SRename this field "is_addNoise" to match the regular expression ^[_a-z][_a-z0-9]*$.(Þ๓ก8ยีþÜฎ1
+zpython:S117A"WRename this parameter "is_addNoise" to match the regular expression ^[_a-z][a-z0-9_]*$.(ฤÿÿÿÿÿ8ยีþÜฎ1
+}python:S117A"ZRename this parameter "is_changeLight" to match the regular expression ^[_a-z][a-z0-9_]*$.(ฤÿÿÿÿÿ8ยีþÜฎ1
+ppython:S107="MMethod "__init__" has 18 parameters, which is greater than the 13 authorized.(ว€วภÿÿÿÿÿ8ยีþÜฎ1
+ppython:S100\"MRename method "_addNoise" to match the regular expression ^[a-z_][a-z0-9_]*$.(ว๚ณ๚ÿÿÿÿ8ยีþÜฎ1
+Bpython:S125c"Remove this commented out code.(ฉฆัๅ๚ÿÿÿÿ8ยีþÜฎ1
+npython:S100g"PRename method "_changeLight" to match the regular expression ^[a-z_][a-z0-9_]*$.(ธฦิ๔8ยีþÜฎ1
+Jpython:S1481–"%Remove the unused local variable "n".(ป—ฐ๘ÿÿÿÿ8ยีþÜฎ1
+spython:S117x"PRename this parameter "boxA" to match the regular expression ^[_a-z][a-z0-9_]*$.(ฐร“ฦ๘ÿÿÿÿ8ยีþÜฎ1
+}python:S117"YRename this local variable "boxAArea" to match the regular expression ^[_a-z][a-z0-9_]*$.(ุช ๛ÿÿÿÿ8ยีþÜฎ1
+spython:S117x"PRename this parameter "boxB" to match the regular expression ^[_a-z][a-z0-9_]*$.(ฐร“ฦ๘ÿÿÿÿ8ยีþÜฎ1
+xpython:S117"YRename this local variable "boxBArea" to match the regular expression ^[_a-z][a-z0-9_]*$.(ม๊จ๖8รีþÜฎ1
+ypython:S117"ZRename this local variable "interArea" to match the regular expression ^[_a-z][a-z0-9_]*$.(ทรด’8รีþÜฎ1
+vpython:S117~"SRename this local variable "xA" to match the regular expression ^[_a-z][a-z0-9_]*$.(ถๅค่ÿÿÿÿÿ8รีþÜฎ1
+qpython:S117€"SRename this local variable "xB" to match the regular expression ^[_a-z][a-z0-9_]*$.(๖ขi8รีþÜฎ1
+qpython:S117"SRename this local variable "yA" to match the regular expression ^[_a-z][a-z0-9_]*$.(ฃ€๑๛8รีþÜฎ1
+qpython:S117"SRename this local variable "yB" to match the regular expression ^[_a-z][a-z0-9_]*$.(ฺฝ~8รีþÜฎ1
+Qpython:S1481",Remove the unused local variable "boxAArea".(ุช ๛ÿÿÿÿ8รีþÜฎ1
+Cpython:S125"Remove this commented out code.(อฉฺ๚ÿÿÿÿ8๓€Ýฎ1
+Cpython:S125ม"Remove this commented out code.(ษศง๛ÿÿÿÿ8๔€Ýฎ1
+npython:S100ü"ORename method "dataAugment" to match the regular expression ^[a-z_][a-z0-9_]*$.(๏ี8รีþÜฎ1
+tpython:S3776ü"TRefactor this function to reduce its Cognitive Complexity from 31 to the 15 allowed.(๏ี8รีþÜฎ1
