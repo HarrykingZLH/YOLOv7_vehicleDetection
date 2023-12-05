@@ -184,37 +184,37 @@ def detect(save_img=False):
                     if save_img or view_img:  # Add bbox to image
                         label = f'{names[int(cls)]} {conf:.2f}'
 
-                        # if ranges_exist:
-                        #     # 中心点坐标
-                        #     x, y, w, h = xyxy
-                        #     center_x = (x + w) / 2
-                        #     center_y = (y + h) / 2
-                        #     point = (center_x, center_y)
-                        #
-                        #     # 获取多边形标注信息
-                        #     polygons = [shape["points"] for shape in data["shapes"]]
-                        #
-                        #     # 判断点是否在任意一个多边形范围内
-                        #     is_in_range = False
-                        #     for polygon in polygons:
-                        #         if point_in_polygon(point, polygon):
-                        #             is_in_range = True
-                        #             break
-                        #
-                        #     center_x = change(int(center_x))
-                        #     center_y = change(int(center_y))
-                        #
-                        #     # 获取视频当前时间
-                        #     current_time = time.time()
-                        #
-                        #     object_id = str(center_x) + '_' + str(center_y)
-                        #     if object_id not in existing_time:
-                        #         existing_time[object_id] = current_time
-                        #
-                        #     if current_time - existing_time[object_id] >= static_threshold and not is_in_range:
-                        #         label = "warning"
-                        #
-                        #     temp[object_id] = existing_time[object_id]
+                        if ranges_exist:
+                            # 中心点坐标
+                            x, y, w, h = xyxy
+                            center_x = (x + w) / 2
+                            center_y = (y + h) / 2
+                            point = (center_x, center_y)
+
+                            # 获取多边形标注信息
+                            polygons = [shape["points"] for shape in data["shapes"]]
+
+                            # 判断点是否在任意一个多边形范围内
+                            is_in_range = False
+                            for polygon in polygons:
+                                if point_in_polygon(point, polygon):
+                                    is_in_range = True
+                                    break
+
+                            center_x = change(int(center_x))
+                            center_y = change(int(center_y))
+
+                            # 获取视频当前时间
+                            current_time = time.time()
+
+                            object_id = str(center_x) + '_' + str(center_y)
+                            if object_id not in existing_time:
+                                existing_time[object_id] = current_time
+
+                            if current_time - existing_time[object_id] >= static_threshold and not is_in_range:
+                                label = "warning"
+
+                            temp[object_id] = existing_time[object_id]
 
                         # 在图像上绘制修改后的标签
                         col = colors[int(cls)]
